@@ -1,0 +1,36 @@
+## .NET / Visual Studio
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.DotSettings.user
+TestResults/
+*.nupkg
+
+## NuGet
+packages/
+*.lock.json
+!package-lock.json
+
+## Rider
+.idea/
+*.sln.iml
+
+## Secrets & config with sensitive data
+appsettings.json
+appsettings.*.json
+!appsettings.Development.json   # keep this if it has no secrets
+
+## User secrets (local override pattern)
+secrets.json
+*.secrets.json
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Specifics
+appsettings.json
+appsettings.Development.json
+secrets.txt
